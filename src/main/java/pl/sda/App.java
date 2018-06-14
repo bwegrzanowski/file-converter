@@ -24,11 +24,9 @@ public class App {
         } catch (IOException e) {
             System.out.println("ERROR");
         }
-        CsvWriter writer = new CsvWriter();
-        writer.write(bookList, writeFilePath);
+        CsvWriter csvWriter = new CsvWriter();
+        csvWriter.write(bookList, writeFilePath);
 
-        List<Book> books = jsonFileReader.readBookData("D:\\Programy\\SDA java projects\\converter\\src\\main\\resources\\books.json");
-        System.out.println(books);
 
         ExcelFileReader excelFileReader = new ExcelFileReader();
         bookList = excelFileReader.readBookData("D:\\Programy\\SDA java projects\\converter\\src\\main\\resources\\books.xlsx");
@@ -37,8 +35,11 @@ public class App {
         ExcelFileWriter excelFileWriter = new ExcelFileWriter();
         excelFileWriter.write("D:\\Programy\\SDA java projects\\converter\\src\\main\\resources\\excelResult.xlsx", bookList);
 
-//        JSONFileWriter writer = new JSONFileWriter();
-//        writer.write("/home/michal/out.json", persons);
+        List<Book> books = jsonFileReader.readBookData("D:\\Programy\\SDA java projects\\converter\\src\\main\\resources\\books.json");
+        System.out.println(books);
+
+        JSONFileWriter jsonFileWriter = new JSONFileWriter();
+        jsonFileWriter.write("D:\\Programy\\SDA java projects\\converter\\src\\main\\resources\\jsonWriter.json", books);
 
     }
 }

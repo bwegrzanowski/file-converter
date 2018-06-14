@@ -1,0 +1,25 @@
+{
+  "jsonWriter": [
+    {
+      "ISBN": "832-958-239",
+      "authorsLastName": "sienkiewicz",
+      "title": "w pustyni i w puszczy",
+      "authorsFirstName": "henryk",
+      "releaseYear": 1900
+    },
+    {
+      "ISBN": "849-327-523",
+      "authorsLastName": "Nowak",
+      "title": "dzieci z bulerbyn",
+      "authorsFirstName": "Jan",
+      "releaseYear": 1977
+    },
+    {
+      "ISBN": "943-295-110",
+      "authorsLastName": "Rowling",
+      "title": "harry potter",
+      "authorsFirstName": "J.K.",
+      "releaseYear": 1998
+    }
+  ]
+}
