@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "title": "w pustyni i w puszczy",
+      "authorsFirstName": "henryk",
+      "authorsLastName": "sienkiewicz",
+      "ISBN": "832-958-239",
+      "releaseYear": 1900
+    },
+    {
+      "title": "dzieci z bulerbyn",
+      "authorsFirstName": "Jan",
+      "authorsLastName": "Nowak",
+      "ISBN": "849-327-523",
+      "releaseYear": 1977
+    },
+    {
+      "title": "harry potter",
+      "authorsFirstName": "J.K.",
+      "authorsLastName": "Rowling",
+      "ISBN": "943-295-110",
+      "releaseYear": 1998
+    }
+  ]
+}
